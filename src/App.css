@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card{
+  width: 700px;
+  margin: 150px;
+  background-color: #fff;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+.card:hover{
+  box-shadow:  10px 10px 10px#000000;
+}
+.author{
+  text-align: end;
+  padding-right: 30px;
+}
+.button{
+  border-radius: 10px;
+  height: 50px;
+  width: 70px;
+  transition: 0.5s;
+  margin: 10px;
+}
+.button:hover{
+  background-color: rgba(0, 17, 255, 0.348);
+}
+.icon{
+  font-size: 50px;
+}
